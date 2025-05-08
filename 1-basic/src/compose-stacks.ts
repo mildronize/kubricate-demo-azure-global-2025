@@ -11,7 +11,7 @@ const myApp = new SimpleAppStack()
     imageRegistry: 'ghcr.io',
     imageName: 'mildronize/kubricate-demo-azure-global-2025:main',
     name: 'my-app',
-    port: 5000,
+    port: 8080,
   })
   .override({
     service: {
