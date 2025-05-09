@@ -27,3 +27,13 @@ npx kbr generate
 ```bash
 npx kbr generate --stdout | kubectl apply -f -  
 ``` 
+
+---
+
+## Kube Command
+
+Run after applying the secrets
+
+```bash
+kubectl rollout restart deployment my-app -n demo-azure-global 
+```
