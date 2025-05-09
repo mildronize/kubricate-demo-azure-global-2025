@@ -1,4 +1,4 @@
-# 1. Basic Kubricate
+# 2. Kubricate with Custom Stacks
 
 Note: this using kubricate v0.19.0,
 However, 

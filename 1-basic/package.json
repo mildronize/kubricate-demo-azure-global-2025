@@ -15,11 +15,7 @@
   "scripts": {
     "check-types": "tsc --noEmit"
   },
-  "peerDependencies": {
-    "@kubernetes-models/base": ">=5.0.1 <6.0.0"
-  },
   "devDependencies": {
-    "@kubernetes-models/base": "^5.0.1",
     "kubricate": "^0.19.1",
     "typescript": "^5.8.3"
   },
@@ -27,6 +23,7 @@
     "@kubricate/core": "^0.19.1",
     "@kubricate/plugin-env": "^0.19.0",
     "@kubricate/plugin-kubernetes": "^0.19.0",
-    "@kubricate/stacks": "^0.19.1"
+    "@kubricate/stacks": "^0.19.1",
+    "kubernetes-models": "^4.4.2"
   }
 }
